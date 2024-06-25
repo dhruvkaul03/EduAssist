@@ -6,7 +6,7 @@ from llama_index.core.prompts.prompts import SimpleInputPrompt
 from langchain.embeddings.huggingface import HuggingFaceEmbeddings
 from llama_index.embeddings.langchain import LangchainEmbedding
 
-# Function to query the Mixtral API
+# Function to query the Mixtral API (work in progress)
 def send(query):
     try:
         url = "https://mixtral.k8s-gosha.atlas.illinois.edu/completion"
